@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(0, 0, 90%);
+    background-color: lch(87.19% 5.3 71.2);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0px;
@@ -9,6 +9,8 @@ body {
     background-color: #fff;
     max-width: 700px;
     margin: 30px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 30px;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -18,4 +20,66 @@ body {
     width: 100%;
     height: auto;
     border-radius: 12px;
+}
+
+.prep-time {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+    background-color: hwb(331 71% 19%);
+    padding: 10px;
+    border-radius: 8px;
+
+
+}
+
+.ingredients {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+li {
+    margin-bottom: 8px;
+    /* adds space between list items */
+    line-height: 1.5;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1 {
+    color: hwb(0 2% 98%);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
